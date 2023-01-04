@@ -1,10 +1,7 @@
 name: myAWSTest
 
-on: 
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
+
 env:
   S3_BUCKET_NAME: my-aws-test-deploy
   
